@@ -14,6 +14,10 @@ const commentSchema = new Schema({
     text: {
         type: String,
         required: true
+    },
+    author: {
+        type: String,
+        required: true
     }
 }, {
     timestamps: true
